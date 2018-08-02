@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather");
+.wrapper {
+  display: grid;
+  /*grid-template-columns: repeat(3, 1fr);*/
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-gap: 1em;
+  grid-auto-rows: minmax(200px, auto);
+  justify-items: center;
+  align-items: start;
+  justify-content: center;
+  font-family: 'Merriweather', serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.nested {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 100px;
+  grid-gap: 1em;
+  font-family: 'Merriweather', serif;
+  font-size: 15px;
+}
+
+.wrapper > div#question {
+  border: #333 1px solid;
+  padding: 1em;
+}
+
+.nested > div {
+  background: #eee;
+  padding: 1em;
+}
+
+#buttonNext {
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  background: #eee;
+  padding: 10px;
+}
+
+#question {
+  margin: auto;
+}
