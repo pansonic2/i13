@@ -28,3 +28,11 @@ document.getElementById('expression6').innerHTML = expressions[6];
 document.getElementById('expression7').innerHTML = expressions[7];
 document.getElementById('expression8').innerHTML = expressions[8];
 document.getElementById('expression9').innerHTML = expressions[9];
+document.getElementById('expression10').innerHTML = expressions[0];
+document.getElementById('expression11').innerHTML = expressions[10];
+document.getElementById('expression12').innerHTML = expressions[11];
+document.getElementById('expression13').innerHTML = expressions[12];
+document.getElementById('expression14').innerHTML = expressions[13];
+document.getElementById('expression15').innerHTML = expressions[14];
+document.getElementById('expression16').innerHTML = expressions[15];
+
